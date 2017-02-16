@@ -9,6 +9,8 @@ POST请求需要使用Postman或者其它请求发送模拟器
 <a href="./art/clipboard.png"><img src="./art/clipboard.png" width="100%"/></a>
 
 ### 使用很简单
+1 拷贝NetWorkInterceptor.java
+2 addInterceptor
 ```
 OkHttpClient okHttpClient = new OkHttpClient.Builder()
                 .addInterceptor(new NetWorkInterceptor())
