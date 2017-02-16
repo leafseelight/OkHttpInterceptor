@@ -27,7 +27,7 @@ public class NetWorkInterceptor implements Interceptor {
             } else if (methodName.equalsIgnoreCase("POST")) {
                 RequestBody mRequestBody = request.body();
                 if (mRequestBody != null) {
-                    String msg = "-url--" + methodName + "--" + request.url() + "?";
+                    String msg = "-url--" + methodName + "--" + request.url();
                     String content;
                     if (msg.contains("uploadFile")) {
                         content = "--上传文件内容--";
