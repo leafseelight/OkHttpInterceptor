@@ -6,7 +6,7 @@
 
 ### 日志截图
 
-<a href="./art/Screenshot.png"><img src="./art/Screenshot.png" width="40%"/></a>
+<a href="./art/clipboard.png"><img src="./art/clipboard.png" width="40%"/></a>
 
 使用很简单
 ```
