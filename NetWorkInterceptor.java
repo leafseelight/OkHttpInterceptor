@@ -1,13 +1,7 @@
-package com.microwill.onemovie.network;
-
 
 import android.util.Log;
-
-import com.microwill.onemovie.BuildConfig;
-
 import java.io.IOException;
 import java.net.URLDecoder;
-
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.RequestBody;
